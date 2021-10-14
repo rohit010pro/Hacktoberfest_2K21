@@ -1,5 +1,5 @@
 <img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" alt="Hacktober Logo" 
-style="display:block; margin:0 auto; height: 200px; width:300px;"/>
+style="text-align:center; display:block; margin:0 auto; height: 200px; width:300px;"/>
 
 Hacktoberfest, in its 8th year, is a month-long celebration of open source software run by DigitalOcean. During the month of October, we invite you to join open-source software enthusiasts, beginners, and the developer community by contributing to open-source projects.
 
