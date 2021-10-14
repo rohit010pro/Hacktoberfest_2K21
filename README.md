@@ -24,3 +24,5 @@ Hacktoberfest is open to everyone in our global community!
 - This year, the first 50,000 participants can earn a T-shirt.
 
 ---
+
+<p style="text-align:center; margin-top:50px;">👨‍💻 Happy Coding👨‍💻</p>
