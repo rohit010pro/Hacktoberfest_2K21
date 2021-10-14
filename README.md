@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 <p align="center">
     <a href="https://hacktoberfest.digitalocean.com/">
         <img src="https://raw.githubusercontent.com/keshavsingh4522/hacktoberfest2021/35fc6060c5ddead5792f29a2437fea160dbe9804/Assets/logo-hacktoberfest-full.f42e3b1.svg" width="30%">
     </a>
 </p>
 
+=======
+<img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" alt="Hacktober Logo" 
+style="text-align:center; display:block; margin:0 auto; height: 200px; width:300px;"/>
+>>>>>>> 9c66d088536eceac9e8d26f6e872b8a2b708d041
 
 Hacktoberfest, in its 8th year, is a month-long celebration of open source software run by DigitalOcean. During the month of October, we invite you to join open-source software enthusiasts, beginners, and the developer community by contributing to open-source projects.
 
