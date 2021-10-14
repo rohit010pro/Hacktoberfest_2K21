@@ -8,11 +8,10 @@ Hacktoberfest, in its 8th year, is a month-long celebration of open source softw
 
 Hacktoberfest is open to everyone in our global community!
 
-## Rules
-
-- Don't use filthy words and be welcome for beginners and other people in this community.
-
----
+## How to contribute
+ * Frok this repository
+ * Add your code in specific language folder or create if not present.
+ * Create a Pull request.
 
 ## Github Contribution Rules
 
