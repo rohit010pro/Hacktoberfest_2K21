@@ -25,17 +25,22 @@ for item in songlist:
 pygame.init()
 pygame.mixer.init()
 
+
+# Defining function for playing the music.
 def play ():
     pygame.mixer.music.load(playlist.get(tkr.ACTIVE))
     var.set(playlist.get(tkr.ACTIVE))
     pygame.mixer.music.play()
 
+# Defining function for the exit from music player.
 def exitmusicplayer():
     pygame.mixer.music.stop()
 
+# Defining function for pausing the music.
 def pause():
     pygame.mixer.music.pause()
 
+# Defining function for resuming the music.
 def resume():
     pygame.mixer.music.unpause
 
