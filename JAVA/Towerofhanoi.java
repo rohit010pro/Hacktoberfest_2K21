@@ -1,26 +1,24 @@
-import java.io.*;
-import java.util.*;
-
-public class Towerofhanoi {
-
-    public static void main(String[] args) throws Exception {
-        // write your code here
-        BufferedReader br= new BufferedReader(new InputStreamReader(System.in));
-        int n=Integer.parseInt(br.readLine());
-        int t1id=Integer.parseInt(br.readLine());
-        int t2id=Integer.parseInt(br.readLine());
-        int t3id=Integer.parseInt(br.readLine());
-        toh(n,t1id,t2id,t3id);
+class TowerofHanoi {
+ 
+  public static void main(String[] args) {
+    hanoi(3, 'A', 'B', 'C');
+  }
+ 
+  private static void hanoi(int n, char rodFrom, char rodMiddle, char rodTo){
+ 
+    if(n==1){
+      System.out.println("Disk 1 moved from "+rodFrom+" to "+rodTo);
+      return;
     }
-
-    public static void toh(int n, int t1id, int t2id, int t3id){
-        if(n==0)
-        return;
-        else{
-            toh(n-1,t1id,t3id,t2id);
-            System.out.println(n+"["+t1id+" -> "+t2id+"]");
-            toh(n-1,t3id,t2id,t1id);
-        }
-    }
-
+ 
+    //Move top n-1 disks from A to B using C as middle
+    hanoi(n-1,rodFrom,rodTo,rodMiddle);
+ 
+    //Move last disk from A to C
+    System.out.println("Disk "+n+" moved from "+rodFrom+" to "+rodTo);
+ 
+    //Move n-1 disks from B to C using A as middle
+    hanoi(n-1,rodMiddle,rodFrom,rodTo);
+ 
+  }
 }
