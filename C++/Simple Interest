@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int principal, rate, time, interest;
+	cout << "\n\n Find the simple interest due:\n";
+	cout << "*******************************\n"; 	
+	cout << " Enter the Principle Amount: ";
+	cin >> principal;
+	cout << " Enter the Rate of Interest per annum: ";
+	cin >> rate;
+	cout << " Enter the Time period in years: ";
+	cin >> time;
+	interest = (principal*rate*time)/100;
+	cout << " The Simple interest on your amount is: "<< interest;
+  cout << "\n The total amount due is: "<< principal+interest;
+  cout << endl;
+	return 0;
+}
